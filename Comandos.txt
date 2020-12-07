@@ -1,0 +1,14 @@
+sudo apt-get update ----> comando para actualizar
+pwd ----> es para mirar la carpeta raiz
+ls------> para listar las carpeta de un directorio
+cd.. ----> para salir de una carpeta
+mkdir ---> crear carpeta
+touch "nombre" -----> crear un archivo
+rm -----> eliminar archivo
+sudo apt-get  --version ---> instalar los paquete de python
+pip3 install rpi.gpio---------> es para controlar los pines 
+startx------> modo grafico
+sudo halt ------> para salir limpiamente del sistema emulado.
+SIMULACRO_1
+
+hola
