@@ -1,4 +1,4 @@
-#define VELOCIDAD 2000   //velocidad de giro del motor, cuanto menos valor + velocidad
+#define VELOCIDAD 1000   //velocidad de giro del motor, cuanto menos valor + velocidad
 
 
 
