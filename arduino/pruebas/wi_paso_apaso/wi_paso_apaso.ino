@@ -14,7 +14,7 @@ WiFiServer server(80); //Servidor web
 int pasos = 26;                                     //definimos como «entero» pin digital 13 para dar los pasos al servo
 int direccion = 27;                               //definimos como «entero» pin digital 9 para dar el sentido de giro
 int reset = 25;                                     //definimos como «entero» pin digital 10 para poner en «enable» el motor
-int totalpasos = 2400;                     //definimos como «entero» totalpasos para completar un avance
+int totalpasos = 200;                     //definimos como «entero» totalpasos para completar un avance
 //Variables Cliente
 char linebuf[80];
 int charcount = 0;
