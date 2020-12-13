@@ -4,7 +4,7 @@
  Este código de ejemplo es de público dominio.
  */
 
-int LED_aparpadear = 5;                 // Definimos la variable y el número del GPIO a conectar el LED a parpadear. 
+int LED_aparpadear = 27;                 // Definimos la variable y el número del GPIO a conectar el LED a parpadear. 
                                         // Lo hacemos en el encabezado del programa para que 
                                         // sea una variable global, accesible a todo el programa.
 
