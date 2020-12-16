@@ -1,10 +1,11 @@
 /*
 Quiz numro #2
 Realizado por:
-    Ibio Antonio Escobar Gomez
+    Julio Alberto Cando
+    Fredy Alejandro Barriento
 Profesor: Ing. Hernando Vanegas Lopez
-Fecha Inicio: 03/11/2020
-Fecha Fin: 06/11/2020
+Fecha Inicio: 15/12/2020
+Fecha Fin: 15/12/2020
 */
 
 int pines[]={15,22,4,5,18,19,21};
@@ -27,26 +28,28 @@ for (int i = 0; i < 7; i = i + 1) {
 pinMode(pulsador,INPUT);
 pinMode(pulsador_2,INPUT);
 }
+
 void loop() {
     if(digitalRead(pulsador)== HIGH)
   {
-    for (int i = 0; i < 2; i = i + 1) {
-        encender (0, 0, 0, 0, 1, 1, 0); //Muestra el numero I
+    for (int i = 0; i < 203; i = i + 1) {
+        
         encender (1, 1, 1, 0, 1, 1, 1); //Muestra el numero A
-        encender (1, 0, 0, 1, 1, 1, 1); //Muestra el numero E
-        encender (1, 0, 1, 1, 1, 1, 1); //Muestra el numero G
+        encender (1, 1, 1, 0, 0, 0, 0); //Muestra el numero 7
+        encender (1, 1, 1, 1, 1, 1, 1); //Muestra el numero 8
+        encender (0, 0, 0, 0, 0, 0, 1); //Muestra el numero -
+
+
         }
 }
   if(digitalRead(pulsador_2)== HIGH){
-     for (int i = 0; i < 2; i = i + 1) {
-         encender (1, 1, 1, 1, 0, 0, 1); //Muestra el numero 3
-         encender (1, 1, 1, 1, 1, 1, 0); //Muestra el numero 0
-         encender (0, 0, 0, 0, 0, 0, 1); //Muestra el numero -
-         encender (1, 1, 1, 1, 1, 1, 0); //Muestra el numero 0
-         encender (1, 1, 1, 1, 0, 0, 1); //Muestra el numero 3
-         encender (0, 0, 0, 0, 0, 0, 1); //Muestra el numero -
-         encender (1, 1, 1, 1, 0, 1, 1); //Muestra el numero 9
-         encender (1, 0, 1, 1, 0, 1, 1); //Muestra el numero 5 
+     for (int i = 0; i < 226; i = i + 1) {
+      encender (1, 1, 1, 1, 1, 1, 1); //Muestra el numero B
+      encender (1, 1, 0, 0, 1, 1, 0); //Muestra el numero 5
+      encender (1, 1, 0, 0, 1, 1, 0); //Muestra el numero 5
+      
+
+
      }
 }
   }
